@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/AmelTaouali/static-api'
+                git 'https://github.com/ghayaammari/static-api'
             }
         }
         stage('build docker image') {
